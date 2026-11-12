@@ -12,7 +12,7 @@
     "next": "15.1.6",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "framer-motion": "11.11.17",
+    "framer-motion": "12.0.0",
     "lucide-react": "0.468.0",
     "lenis": "1.1.18",
     "clsx": "2.1.1"
