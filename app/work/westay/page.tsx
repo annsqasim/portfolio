@@ -18,7 +18,7 @@ export default function WeStayCase() {
     <SmoothScroll>
       <CursorGlow />
       <ScrollProgress />
-      <div className="relative overflow-x-hidden">
+      <div className="relative overflow-x-clip">
         <Nav />
 
         <header className="mx-auto max-w-[1120px] px-8 pb-14 pt-24">

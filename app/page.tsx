@@ -18,7 +18,7 @@ export default function Home() {
     <SmoothScroll>
       <CursorGlow />
       <ScrollProgress />
-      <div id="top" className="relative overflow-x-hidden">
+      <div id="top" className="relative overflow-x-clip">
         <Nav />
 
         {/* HERO */}
