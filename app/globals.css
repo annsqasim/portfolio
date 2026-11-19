@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html { scroll-behavior: smooth; }
+/* Smooth scrolling is handled by Lenis; native smooth scroll fights it. */
+/* scroll-margin keeps anchored sections clear of the sticky nav (no-JS / reduced motion). */
+section[id] { scroll-margin-top: 88px; }
 body {
   @apply bg-paper text-ink font-sans antialiased;
   font-size: 17px;
